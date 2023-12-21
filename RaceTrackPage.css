@@ -1,0 +1,54 @@
+/* src/RaceTrackPage.css */
+.track-container {
+    display: flex;
+    justify-content: center;
+  }
+  .track-main-container {
+    background-color: #d1cdcd;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .form-section {
+    display: flex;
+  }
+  .race-track {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .participant-track {
+    margin-bottom: 20px;
+  }
+  
+  .participant-track p {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .participant-track div {
+    height: 20px;
+    background-color: #3498db;
+    transition: width 1s linear;
+  }
+  .card {
+    background-color: #1e4d37;
+    padding: 50px;
+    border-radius: 50%;
+    margin-top: 100px;
+  }
+  .main-heading1 {
+    font-size: 30px;
+    color: #147346;
+    font-weight: 600;
+  }
+  .track-description {
+    color: #147346;
+    text-align: center;
+  }
+  .timer {
+    display: flex;
+    justify-content: center;
+  }
+  
